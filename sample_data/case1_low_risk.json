@@ -1,0 +1,6 @@
+{
+  "name": "Case 1 — Low Risk (consistent claim)",
+  "description": "URI treated with a single medication and discharged same day. The bill matches the chart with a modest amount.",
+  "chart_text": "Patient presented with cough, sore throat, and low-grade fever. Diagnosed with an upper respiratory infection (URI). Prescribed amoxicillin. Patient was discharged same day with home care instructions.",
+  "bill_text": "Claim submitted for an upper respiratory infection (URI) office visit. Medication billed: amoxicillin. Same-day discharge, low complexity visit. Total claim amount: $500."
+}

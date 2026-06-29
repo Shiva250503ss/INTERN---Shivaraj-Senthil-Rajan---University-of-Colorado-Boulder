@@ -1,0 +1,6 @@
+{
+  "name": "Case 3 — Medium Risk (one extra item)",
+  "description": "Chart and bill agree on pneumonia and antibiotics, but the bill adds a steroid injection that the chart does not document.",
+  "chart_text": "Patient admitted for pneumonia and monitored for 2 days. Treated with antibiotics during the inpatient stay. Responded well to treatment.",
+  "bill_text": "Claim submitted for pneumonia, 2 day inpatient stay. Medications billed: antibiotics. Additional steroid injection procedure billed. Total claim amount: $3,200."
+}

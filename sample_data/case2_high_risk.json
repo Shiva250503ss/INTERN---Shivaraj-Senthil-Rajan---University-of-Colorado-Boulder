@@ -1,0 +1,6 @@
+{
+  "name": "Case 2 — High Risk (upcoded claim)",
+  "description": "Chart shows a simple same-day URI, but the bill claims pneumonia, extra medications, high complexity, and a very large amount.",
+  "chart_text": "Patient seen for a common cold with mild cough and fever. Diagnosed with an upper respiratory infection (URI). Prescribed ibuprofen for symptom relief. No procedures performed. Patient discharged same day.",
+  "bill_text": "Claim submitted for pneumonia, high complexity inpatient encounter. Medications billed: amoxicillin, albuterol, and steroid. Chest x-ray procedure billed. Total claim amount: $12,400."
+}
