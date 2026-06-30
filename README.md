@@ -10,6 +10,21 @@ human-review action.
 
 ---
 
+## 📦 Cotiviti Assessment Deliverables
+
+**Submitted by:** Shivaraj Senthil Rajan — University of Colorado Boulder
+**Topic 1:** Clinical Natural Language Technology for Health Care (NLP · OCR · Computer Vision · LLM · LMM)
+
+| Deliverable | Location |
+|---|---|
+| 📄 Written report (Word) | [deliverables/ClaimGuard_Clinical_NLP_Report_Cotiviti.docx](deliverables/ClaimGuard_Clinical_NLP_Report_Cotiviti.docx) |
+| 📄 Written report (PDF copy) | [deliverables/ClaimGuard_Clinical_NLP_Report_Cotiviti.pdf](deliverables/ClaimGuard_Clinical_NLP_Report_Cotiviti.pdf) |
+| 📊 Slide presentation | [deliverables/ClaimGuard-Lite_Presentation.pptx](deliverables/ClaimGuard-Lite_Presentation.pptx) |
+| 🎥 Video recording (MP4) | [deliverables/ClaimGuard-Lite_Demo_Video.mp4](deliverables/ClaimGuard-Lite_Demo_Video.mp4) |
+| 💻 Proof-of-concept code | This repository — see [How to Run It](#how-to-run-it) below |
+
+---
+
 ## Problem Statement
 
 Healthcare payers process millions of claims. A claim can be **upcoded** or
@@ -125,6 +140,11 @@ is **never committed**. The rule-based engine works with no key at all.
 ├── README.md               # this file
 ├── .env.example            # template for your API key (copy to .env)
 ├── .gitignore              # keeps .env (your key) out of git
+├── deliverables/           # assessment artifacts (report, slides, video)
+│   ├── ClaimGuard_Clinical_NLP_Report_Cotiviti.docx
+│   ├── ClaimGuard_Clinical_NLP_Report_Cotiviti.pdf
+│   ├── ClaimGuard-Lite_Presentation.pptx
+│   └── ClaimGuard-Lite_Demo_Video.mp4
 ├── src/
 │   ├── __init__.py         # exposes the core functions
 │   ├── extractor.py        # rule-based extract_chart_facts / extract_billing_facts
@@ -137,8 +157,9 @@ is **never committed**. The rule-based engine works with no key at all.
     ├── case2_high_risk.json    # upcoded claim        -> High
     ├── case3_medium_risk.json  # one extra item       -> Medium
     └── images/                 # chart/claim images for the OCR demo
-        ├── case1_chart.png  ├── case1_bill.png
-        └── case2_chart.png  └── case2_bill.png
+        ├── case1_chart.png     ├── case1_bill.png
+        ├── case2_chart.png     ├── case2_bill.png
+        └── handwritten_chart.png  └── handwritten_bill.png
 ```
 
 ## How the Logic Works
